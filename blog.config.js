@@ -48,7 +48,7 @@ const BLOG = {
     // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
     FONT_URL: [
         // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
-        'https://fonts.googleapis.com/css?family=Bitter&display=swap',
+        'https://fonts.googleapis.com/css?family=Roboto&display=swap',
         'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
         'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
     ],
@@ -160,7 +160,7 @@ const BLOG = {
     PREVIEW_CATEGORY_COUNT: 0, // 首页最多展示的分类数量，0为不限制
     PREVIEW_TAG_COUNT: 0, // 首页最多展示的标签数量，0为不限制
 
-    POST_DISABLE_GALLERY_CLICK: process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || false, // 画册视图禁止点击，方便在友链页面的画册插入链接
+    POST_DISABLE_GALLERY_CLICK: process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || true, // 画册视图禁止点击，方便在友链页面的画册插入链接
 
     //   ********动态特效相关********
     // 鼠标点击烟花特效
@@ -244,7 +244,7 @@ const BLOG = {
     //   ********挂件组件相关********
     // ----> 评论互动 可同时开启多个支持 WALINE VALINE GISCUS CUSDIS UTTERRANCES GITALK
 
-    COMMENT_HIDE_SINGLE_TAB: process.env.NEXT_PUBLIC_COMMENT_HIDE_SINGLE_TAB || false, // Whether hide the tab when there's no tabs. 只有一个评论组件时是否隐藏切换组件的标签页
+    COMMENT_HIDE_SINGLE_TAB: process.env.NEXT_PUBLIC_COMMENT_HIDE_SINGLE_TAB || true, // Whether hide the tab when there's no tabs. 只有一个评论组件时是否隐藏切换组件的标签页
 
     // artalk 评论插件
     COMMENT_ARTALK_SERVER: process.env.NEXT_PUBLIC_COMMENT_ARTALK_SERVER || '', // ArtalkServert后端地址 https://artalk.js.org/guide/deploy.html
