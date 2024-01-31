@@ -49,13 +49,16 @@ const BLOG = {
     FONT_URL: [
         // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
         'https://fonts.googleapis.com/css?family=Roboto&display=swap',
+        /*
         'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
         'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
+        */
     ],
     // 无衬线字体 例如'"LXGW WenKai"'
     FONT_SANS: [
         '"Microsoft YaHei"',
         // '"LXGW WenKai"',
+        /*
         '"PingFang SC"',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -71,6 +74,7 @@ const BLOG = {
         'Arial',
         'sans-serif',
         '"Apple Color Emoji"'
+        */
     ],
     // 衬线字体 例如'"LXGW WenKai"'
     FONT_SERIF: [
